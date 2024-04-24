@@ -4,6 +4,7 @@ import "./styles.css";
 import MainContent from "./components/MainContent/MainContent";
 import PresentSection from "../components/PresentSection";
 import LastSection from "./components/LastSection/LastSection";
+import { useMediaQuery } from "@mui/material";
 const Content = () => {
 	return (
 		<article className="content-container">
