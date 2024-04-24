@@ -1,0 +1,49 @@
+.last-section_container {
+	background-image: url("/public/background-last.png");
+	background-size: cover;
+	height: 554px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 28px;
+}
+
+.last-section-content_container {
+	padding: 32px;
+	background-color: #fff;
+	height: 100%;
+	max-width: 667px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	gap: 68px;
+	line-height: 1.4;
+}
+
+.last-section-content_container .label {
+	font-size: 43px;
+	font-weight: 600;
+  color: #44444B;
+  margin-bottom: 32px;
+}
+.last-section-content_container .desc {
+	font-size: 27px;
+	color: #8d8c97;
+}
+
+@media (min-width: 376px) and (max-width: 769px) {
+	.last-section-content_container {
+		max-width: 614px;
+	}
+}
+
+@media (max-width: 375px) {
+	.last-section_container {
+		padding: 28px 0;
+	}
+	.last-section-content_container {
+		max-width: 100%;
+	}
+}

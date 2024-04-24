@@ -1,0 +1,33 @@
+.timeline-item_text_container {
+	border-top: 1px solid #e4e4e7;
+	max-width: 531px;
+	width: 100%;
+}
+
+.timeline-item_text_container label {
+	color: #8d8c97;
+	margin-top: 16px;
+}
+
+.timeline-item_text_container p {
+	line-height: 1.4;
+	color: #44444b;
+}
+
+.timeline-item_container {
+	flex-direction: column !important;
+}
+
+.timeline-item_container img {
+	max-width: 682px;
+	margin-top: 80px;
+}
+
+@media (max-width: 375px) {
+	.timeline-item_container img {
+		width: 100%;
+	}
+	.timeline-item_container {
+		padding: 16px;
+	}
+}

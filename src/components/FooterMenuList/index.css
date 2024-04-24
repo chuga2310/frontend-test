@@ -1,0 +1,17 @@
+.footer-menu-title {
+	font-weight: 600;
+	color: #44444b;
+}
+
+.item {
+	margin-bottom: 24px;
+}
+
+.footer-menu-item {
+	color: #8d8c97 !important;
+	margin-bottom: 24px !important;
+}
+
+.menu-list {
+	margin-top: 24px;
+}
