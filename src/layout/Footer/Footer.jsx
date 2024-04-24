@@ -7,7 +7,7 @@ export default function Footer() {
 	const [language, setLanguage] = React.useState("en");
 	return (
 		<footer
-			className="align-items-center flex-column d-flex"
+			className="align-items-center flex-column d-flex pb-5 "
 			style={{ backgroundColor: "#FCFCFD" }}
 		>
 			<div className="footer-container d-flex flex-column row align-items-center">
