@@ -4,14 +4,14 @@
 	}
 }
 
-@media (min-width: 376px) and (max-width: 769px) {
+@media (min-width: 441px) and (max-width: 769px) {
 	.content-container {
     padding-top: 138px;
     padding-bottom: 138px;
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 440px) {
 	.content-container {
     padding: 80px 0;
 	}

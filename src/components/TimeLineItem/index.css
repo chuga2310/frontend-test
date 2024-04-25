@@ -23,7 +23,7 @@
 	margin-top: 80px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 440px) {
 	.timeline-item_container img {
 		width: 100%;
 	}

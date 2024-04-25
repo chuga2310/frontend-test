@@ -4,7 +4,7 @@ import { useMediaQuery } from "@mui/material";
 
 function Section1() {
 	const isMedium = useMediaQuery("(max-width:850px)");
-	const isMobile = useMediaQuery("(max-width:376px)");
+	const isMobile = useMediaQuery("(max-width:441px)");
 
 	return (
 		<section className="container section-container">

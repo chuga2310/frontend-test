@@ -64,13 +64,13 @@
 	}
 }
 
-@media (min-width: 376px) and (max-width: 769px) {
+@media (min-width: 441px) and (max-width: 769px) {
 	.footer-container {
 		max-width: 664px;
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 440px) {
 	.footer-container {
 		max-width: 343px;
 	}

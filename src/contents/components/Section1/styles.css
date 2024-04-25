@@ -52,8 +52,9 @@
 }
 
 .card-content__desc {
-	font-size: 18px;
+	font-size: 1.125rem;
 	color: #8d8c97;
+	text-align: center;
 }
 
 @media (min-width: 769px) {
@@ -62,11 +63,18 @@
 	}
 
 	.card-content__title {
-		font-size: 53px;
+		font-size: 3.375rem;
 	}
 }
 
-@media (min-width: 376px) and (max-width: 769px) {
+@media (min-width: 769px) and (max-width: 850px) {
+	.row2 .card-content__title{
+		font-size: 3rem;
+	}
+}
+
+
+@media (min-width: 441px) and (max-width: 769px) {
 	.section-container {
 		padding-left: 40px;
 		padding-right: 40px;
@@ -81,23 +89,33 @@
 	}
 
 	.card-content__title {
-		font-size: 34px;
+		font-size: 1.5rem;
+	}
+
+	.card-content__desc {
+		font-size: 0.75rem;
+	}
+	.section-container .card-box .default-box {
+		gap: 16px;
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 440px) {
 	.section-container {
 		padding-left: 16px;
 		padding-right: 16px;
 	}
 	.section-container .row2 .card-box .card-content {
-		height: calc((calc(376px - 24px - 32px)) / 2);
+		height: calc((calc(441px - 24px - 32px)) / 2);
 	}
 
 	.section-container .row3 .card-box .card-content {
-		height: calc((calc(376px - 24px - 32px)) / 2);
+		height: calc((calc(441px - 24px - 32px)) / 2);
 	}
 	.card-content__title {
-		font-size: 27px;
+		font-size: 1.5rem;
+	}
+	.section-container .card-box .default-box {
+		gap: 12px;
 	}
 }
