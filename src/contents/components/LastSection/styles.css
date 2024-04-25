@@ -20,7 +20,6 @@
 	text-align: center;
 	gap: 68px;
 	line-height: 1.4;
-	overflow: hidden;
 }
 
 .last-section-content_container .label {
@@ -39,6 +38,9 @@
 	right: 0;
 	left: 0;
 	bottom: 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	display: block;
 }
 
 .images-container img {
@@ -96,32 +98,32 @@
 
 	.images-container img.images1 {
 		top: 50%;
-		left: -20%;
+		left: -70px;
 		rotate: 15deg;
 		transform: translateY(-50%);
 	}
 
 	.images-container img.images2 {
 		top: 10%;
-		left: -10%;
+		left: 10px;
 		rotate: 35deg;
 	}
 
 	.images-container img.images3 {
-		bottom: -5%;
-		left: -10%;
+		bottom: 5px;
+		left: -50px;
 		rotate: -25deg;
 	}
 
 	.images-container img.images4 {
 		top: 50%;
-		right: -20%;
+		right: -70px;
 		rotate: -15deg;
 		transform: translateY(-50%);
 	}
 
 	.images-container img.images5 {
-		top: 5%;
+		top: 10%;
 		right: -10%;
 		rotate: -45deg;
 	}
